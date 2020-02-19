@@ -1,0 +1,1 @@
+ps aux | grep 'ss[h]' | awk '{print $2}'
